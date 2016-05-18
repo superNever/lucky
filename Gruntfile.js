@@ -105,7 +105,6 @@ module.exports = function (grunt) {
       }
     }
   });
-
   grunt.registerTask('serve', function (target) {
     if (target === 'dist') {
       return grunt.task.run(['build', 'open:dist', 'connect:dist']);
